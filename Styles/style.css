@@ -48,7 +48,36 @@ table {
 }
 h1 {
   font-family: 'PT Sans Caption', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+h1 + p {
+  font-family: 'PT Sans Caption', sans-serif;
+  color:grey;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  margin-bottom: 4px;
+
+}
+h3 + p {
+  color: green;
+}
+a{
+  color:grey;
 }
 p {
   font-family: 'PT Sans', sans-serif;
+  font-size: 25px;
+}
+body {
+  background-image: url(dc-online-media-mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+body{
+  width:700px;
+  margin: 0 auto;
+  margin-top: 69px;
 }
