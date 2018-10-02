@@ -29,7 +29,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	width: 700px;
+	margin-top: 68px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
 }
 ol, ul {
 	list-style: none;
@@ -50,34 +54,36 @@ h1 {
   font-family: 'PT Sans Caption', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 2px;
+	line-height: 46px;
+	margin-top: 16px;
 }
 h1 + p {
   font-family: 'PT Sans Caption', sans-serif;
   color:grey;
-  line-height: 30px;
-  letter-spacing: 0.15px;
-  margin-bottom: 4px;
-
+  line-height: 32px;
+  margin-top: 14px;
+	font-size: 22px;
 }
+
+h2 {
+	margin-top: 43px;
+	font-size: 32px;
+	line-height: 36px;
+}
+h3{
+	margin-top: 36px;
+	font-size: 28px;
+	line-height: 34px;
+}
+
 h3 + p {
-  color: green;
+  margin-top: 6px;
 }
 a{
   color:grey;
 }
 p {
   font-family: 'PT Sans', sans-serif;
-  font-size: 25px;
-}
-body {
-  background-image: url(dc-online-media-mockup.jpg);
-  background-size: 800px 20624px;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-body{
-  width:700px;
-  margin: 0 auto;
-  margin-top: 69px;
+	line-height: 34px;
+  font-size: 22px;
 }
